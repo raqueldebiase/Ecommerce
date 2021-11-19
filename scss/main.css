@@ -332,6 +332,16 @@ input {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .container_news .news {
+    max-width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
 .container_news .news img {
   width: 100%;
 }
