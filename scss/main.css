@@ -156,6 +156,8 @@ input {
   height: 600px;
   background-image: url(/images/hero/hero-img.png);
   background-repeat: no-repeat;
+  background-position-x: center;
+  background-attachment: fixed;
   margin: 40px 0 40px 0;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -303,12 +305,6 @@ input {
           box-shadow: -10px 6px 10px rgba(0, 0, 0, 0.336);
 }
 
-@media screen and (max-width: 400px) {
-  .container_news {
-    width: 100%;
-  }
-}
-
 .container_news .news {
   max-width: 100%;
   display: -webkit-box;
@@ -324,6 +320,20 @@ input {
           align-items: center;
   overflow: hidden;
   gap: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .container_news .news {
+    max-width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.container_news .news img {
+  width: 100%;
 }
 
 .container_pesquisa {
