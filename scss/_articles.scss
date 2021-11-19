@@ -1,10 +1,10 @@
 .container_articles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
     overflow: hidden;
     max-width: 100%;
     padding: 40px;
+    margin-left: 20px;
     .container_text {
         width: 100%;
         display: flex;
@@ -29,16 +29,37 @@
                 color: rgb(109, 108, 108);
             }
         }
+        @media screen and (min-width: 800px) and (max-width: 400px){
+            display: block;
+        }
     }
     .container_art{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
 
-        @media screen and (max-width: 400px){
+
+        @media screen and (max-width: 800px){
             display: grid;
             grid-template-columns: auto;
+            align-items: center;
             grid-gap: 40px;
             
+            img{
+                width: 60%;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            img {
+                width: 100%;
+            }
+        }
+
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 20px 0 0;
         }
         
         .p_small{
