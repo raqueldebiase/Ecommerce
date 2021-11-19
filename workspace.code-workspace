@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../pasta sem nome"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "EDIT."
+	}
+}
