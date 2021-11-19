@@ -7,6 +7,8 @@
     align-items: flex-end;
     background-image: url(/images/banner.png);
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
     max-width: 100%;
     overflow: hidden;
     height: 400px;
@@ -20,6 +22,9 @@
             font-weight:bolder;
             letter-spacing: 2px;
             margin-bottom: 20px;
+            @media screen and (max-width: 400px) {
+                font-size: 18px;
+            }
         }
         p {
             color: white;
@@ -27,6 +32,9 @@
             font-size: 18px;
             letter-spacing: 2px;
             margin-bottom: 20px;
+            @media screen and (max-width: 400px) {
+                font-size: 14px;
+            }
         }
         .form_newsletter {
             margin-bottom: 40px;
@@ -53,6 +61,10 @@
                 height: 40px;
                 border-style: none;
                 background: rgba(128, 128, 128, 0.288);
+
+                @media screen and (max-width: 400px) {
+                    width: 200px;
+                }
             }
         }
     }

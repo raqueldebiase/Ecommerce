@@ -360,6 +360,8 @@ input {
       align-items: flex-end;
   background-image: url(/images/banner.png);
   background-repeat: no-repeat;
+  background-position-x: center;
+  background-attachment: fixed;
   max-width: 100%;
   overflow: hidden;
   height: 400px;
@@ -379,12 +381,24 @@ input {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 400px) {
+  .container_pesquisa .search h3 {
+    font-size: 18px;
+  }
+}
+
 .container_pesquisa .search p {
   color: white;
   font-family: "nunito";
   font-size: 18px;
   letter-spacing: 2px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .container_pesquisa .search p {
+    font-size: 14px;
+  }
 }
 
 .container_pesquisa .search .form_newsletter {
@@ -417,6 +431,12 @@ input {
   height: 40px;
   border-style: none;
   background: rgba(128, 128, 128, 0.288);
+}
+
+@media screen and (max-width: 400px) {
+  .container_pesquisa .search .form_newsletter input {
+    width: 200px;
+  }
 }
 
 .container_articles {
@@ -526,6 +546,8 @@ input {
       align-items: flex-end;
   background-image: url(/images/banner.png);
   background-repeat: no-repeat;
+  background-position-x: center;
+  background-attachment: fixed;
   max-width: 100%;
   overflow: hidden;
   height: 400px;
@@ -545,12 +567,24 @@ input {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 400px) {
+  .container_pesquisa .search h3 {
+    font-size: 18px;
+  }
+}
+
 .container_pesquisa .search p {
   color: white;
   font-family: "nunito";
   font-size: 18px;
   letter-spacing: 2px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .container_pesquisa .search p {
+    font-size: 14px;
+  }
 }
 
 .container_pesquisa .search .form_newsletter {
@@ -583,6 +617,12 @@ input {
   height: 40px;
   border-style: none;
   background: rgba(128, 128, 128, 0.288);
+}
+
+@media screen and (max-width: 400px) {
+  .container_pesquisa .search .form_newsletter input {
+    width: 200px;
+  }
 }
 
 main h2 {
