@@ -1,6 +1,6 @@
 main {
     h2{
-        padding: 40px;
+        margin: 40px 0 40px 40px;
         font-family: "Nunito", sans-serif;
         font-size: 18px;
         font-weight: bold;
@@ -8,9 +8,17 @@ main {
         color: rgb(61, 61, 61);
     }
     .container_img_about{
-        max-width: 100%;
         display: flex;
-        justify-content: center;
+        background-image: url(/images/about/about.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-attachment: fixed;
+        max-width: 100%;
+        padding: 40px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 5px 5px 0px 0;
+        box-shadow: -10px 6px 10px rgba(0, 0, 0, 0.336);
 
     }
     .cointainer_txt_about{
@@ -19,7 +27,7 @@ main {
         justify-content: space-between;
         align-items: center;
         gap: 20px;
-        padding: 60px 40px 60px 40px;
+        padding: 40px;
         h3{
             font-family: "Nunito", sans-serif;
             font-size: 18px;
