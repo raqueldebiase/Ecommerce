@@ -4,7 +4,7 @@
     overflow: hidden;
     max-width: 100%;
     padding: 40px;
-    margin-left: 20px;
+
     .container_text {
         width: 100%;
         display: flex;
@@ -12,6 +12,7 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 60px;
+        margin-left: 20px;
         
         h3 {
             font-family: "Nunito", sans-serif;
@@ -36,6 +37,7 @@
     .container_art{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        align-items: flex-end;
 
 
         @media screen and (max-width: 800px){
@@ -45,7 +47,7 @@
             grid-gap: 40px;
             
             img{
-                width: 60%;
+                width: 80%;
             }
         }
 
@@ -55,19 +57,20 @@
             }
         }
 
-        div {
+        .div_art {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            margin: 0 20px 0 0;
+            align-items: flex-end;
+            max-width: 60%;
+            margin: auto;
         }
         
         .p_small{
-            margin-top: 20px;
+            margin-top: 40px;
             display: flex;
             flex-wrap: wrap;
-            justify-content:flex-start;
-            align-items: center;
+            justify-content:start;
         
         }
         p {
