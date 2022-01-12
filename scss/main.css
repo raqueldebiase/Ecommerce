@@ -889,26 +889,18 @@ main .container_button .buttonClass {
   padding-top: 60px;
 }
 
-main .carouselProducts {
+main .heroShop {
   background: #c4c4c436;
-  height: 400px;
+  height: 550px;
   margin-top: 40px;
   border-radius: 5px 5px 0px 0;
   -webkit-box-shadow: -10px 6px 10px rgba(0, 0, 0, 0.336);
           box-shadow: -10px 6px 10px rgba(0, 0, 0, 0.336);
 }
 
-main .carouselPrincipal {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  gap: 40px;
-  padding: 20px;
+main .heroShop .carouselSlick {
+  padding: 40px;
+  margin-left: 40px;
 }
 
 .container_footer {
