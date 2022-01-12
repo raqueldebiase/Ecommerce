@@ -896,6 +896,7 @@ main .heroShop {
   border-radius: 5px 5px 0px 0;
   -webkit-box-shadow: -10px 6px 10px rgba(0, 0, 0, 0.336);
           box-shadow: -10px 6px 10px rgba(0, 0, 0, 0.336);
+  overflow: hidden;
 }
 
 main .heroShop .carouselSlick {
