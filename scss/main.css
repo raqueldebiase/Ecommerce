@@ -225,6 +225,21 @@ input {
   overflow: hidden;
   margin-top: 60px;
   margin-left: 40px;
+  /*
+    .container_image{
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        scroll-padding-left: 40px;
+        padding: 20px 0px 0px 80px;
+        display: grid;
+        width: 100%;
+        grid-auto-flow: column;
+        gap: 10px;
+        .pop-icon {
+            scroll-snap-align: start;
+        }
+    }
+    */
 }
 
 .container_carousel .container_p1_p2 {
@@ -255,23 +270,6 @@ input {
 .container_carousel .container_p1_p2 h4 a {
   text-decoration: underline;
   color: #6d6c6c;
-}
-
-.container_carousel .container_image {
-  overflow-x: scroll;
-  -ms-scroll-snap-type: x mandatory;
-      scroll-snap-type: x mandatory;
-  scroll-padding-left: 40px;
-  padding: 20px 0px 0px 80px;
-  display: -ms-grid;
-  display: grid;
-  width: 100%;
-  grid-auto-flow: column;
-  gap: 10px;
-}
-
-.container_carousel .container_image .pop-icon {
-  scroll-snap-align: start;
 }
 
 .container_carousel .podcast {
