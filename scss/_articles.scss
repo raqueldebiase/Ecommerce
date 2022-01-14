@@ -1,9 +1,7 @@
 .container_articles {
-    display: grid;
-    grid-template-columns: repeat(1, 3fr);
     overflow: hidden;
     max-width: 100%;
-    padding: 40px;
+    padding: 10px;
 
     .container_text {
         width: 100%;
@@ -34,17 +32,15 @@
             display: block;
         }
     }
-    .container_art{
+    .grid_articles{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        align-items: flex-end;
-
+        margin: auto;
+        grid-gap: -10px;
 
         @media screen and (max-width: 800px){
             display: grid;
             grid-template-columns: auto;
-            align-items: center;
-            grid-gap: 40px;
             
             img{
                 width: 80%;
@@ -62,7 +58,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: flex-end;
-            max-width: 60%;
+            max-width: 70%;
             margin: auto;
         }
         

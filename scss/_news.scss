@@ -1,22 +1,39 @@
-.banner_sales{
-    .sales {
-        max-width: 100%;
-        overflow: hidden;
-        margin: 150px 0 150px 0;
-        @media screen and (max-width: 400px){
-            max-width: 100%;
-            display: grid;
-            grid-template-columns: 1fr;
-        }
+.sales {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 150px 0 150px 0;
+    z-index: -1;
+    position: relative;
+    display: grid;
+    place-items: center;
+    .txt_sales{
+        position: absolute;
+        color: #ffffff;
+        font-size: 86px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
 
-        @media screen and (max-width: 800px){
-            max-width: 100%;
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-        
-        img{
-            width: 100%;
+
+    @media screen and (max-width: 400px){
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        p {
+            font-size: 24px;
         }
     }
+
+    @media screen and (max-width: 800px){
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        p {
+            font-size: 36px;
+        }
+    }
+        
+    img{
+        width: 100%;
+    }
 }
+

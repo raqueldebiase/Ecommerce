@@ -17,7 +17,11 @@ $(".container_image").slick({
   autoplaySpeed: 4000,  
   });
 
+/*bannes SALEL*/
 
+$(".sales").mouseenter (function () {
+  $("#log").append ("<div>SALES SALES SALES</div ")
+});
 
 
 /*caroussel shop */
