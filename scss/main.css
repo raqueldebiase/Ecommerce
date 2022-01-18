@@ -424,7 +424,7 @@ input {
 .container_articles {
   overflow: hidden;
   max-width: 100%;
-  padding: 10px;
+  padding: 40px;
 }
 
 .container_articles .container_text {
@@ -473,8 +473,28 @@ input {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  margin: auto;
-  grid-gap: -10px;
+}
+
+.container_articles .grid_articles ul {
+  padding: 40px;
+}
+
+.container_articles .grid_articles ul li {
+  margin-bottom: 40px;
+}
+
+.container_articles .grid_articles ul h2 {
+  font-family: "nunito", sans-serif;
+  font-size: 18px;
+  margin: 15px 0 15px 0;
+  text-align: center;
+}
+
+.container_articles .grid_articles ul p {
+  font-size: 14px;
+  font-family: "nunito", sans-serif;
+  color: gray;
+  text-align: center;
 }
 
 @media screen and (max-width: 800px) {
@@ -509,31 +529,6 @@ input {
           align-items: flex-end;
   max-width: 70%;
   margin: auto;
-}
-
-.container_articles .grid_articles .p_small {
-  margin-top: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-}
-
-.container_articles .grid_articles p {
-  font-size: 18px;
-  font-family: "nunito", sans-serif;
-  color: gray;
-}
-
-.container_articles .grid_articles small {
-  margin-top: 20px;
-  font-size: 14px;
-  font-family: "nunito", sans-serif;
-  color: gray;
 }
 
 .container_pesquisa {

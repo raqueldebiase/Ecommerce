@@ -1,7 +1,7 @@
 .container_articles {
     overflow: hidden;
     max-width: 100%;
-    padding: 10px;
+    padding: 40px;
 
     .container_text {
         width: 100%;
@@ -35,8 +35,26 @@
     .grid_articles{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin: auto;
-        grid-gap: -10px;
+        ul{
+            padding: 40px;
+            li{
+                margin-bottom: 40px;
+            }
+            h2{
+                font-family: "nunito", sans-serif;
+                font-size: 18px;
+                margin: 15px 0 15px 0;
+                text-align: center;
+            }
+            p {
+                font-size: 14px;
+                font-family: "nunito", sans-serif;
+                color: gray;
+                text-align: center;
+            }
+        }
+        
+        
 
         @media screen and (max-width: 800px){
             display: grid;
@@ -62,25 +80,5 @@
             margin: auto;
         }
         
-        .p_small{
-            margin-top: 40px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content:start;
-        
-        }
-        p {
-            font-size: 18px;
-            font-family: "nunito", sans-serif;
-            color: gray;
-
-        }
-        small {
-            margin-top: 20px;
-            font-size: 14px;
-            font-family: "nunito", sans-serif;
-            color: gray;
-        
-        }
     }
 }
