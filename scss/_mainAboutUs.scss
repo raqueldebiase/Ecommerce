@@ -10,12 +10,9 @@ main {
     .container_img_about{
         display: flex;
         background-image: url(/images/about/about.png);
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-attachment: fixed;
         max-width: 100%;
         padding: 40px;
-        height: 100px;
+        height: 300px;
         overflow: hidden;
         border-radius: 5px 5px 0px 0;
         box-shadow: -10px 6px 10px rgba(0, 0, 0, 0.336);
@@ -26,8 +23,8 @@ main {
         flex-wrap: nowrap;
         justify-content: space-between;
         align-items: center;
-        gap: 20px;
-        padding: 40px;
+        gap: 80px;
+        padding: 100px;
         h3{
             font-family: "Nunito", sans-serif;
             font-size: 18px;
@@ -69,5 +66,12 @@ main {
             text-align: center;
             }
     }
-    
+}
+
+.slideTeamWork{
+    display: flex;
+    overflow: hidden;
+    gap: 20px;
+    width: 85%;
+    margin: auto;
 }

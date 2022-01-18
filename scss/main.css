@@ -638,12 +638,9 @@ main .container_img_about {
   display: -ms-flexbox;
   display: flex;
   background-image: url(/images/about/about.png);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-attachment: fixed;
   max-width: 100%;
   padding: 40px;
-  height: 100px;
+  height: 300px;
   overflow: hidden;
   border-radius: 5px 5px 0px 0;
   -webkit-box-shadow: -10px 6px 10px rgba(0, 0, 0, 0.336);
@@ -662,8 +659,8 @@ main .cointainer_txt_about {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 20px;
-  padding: 40px;
+  gap: 80px;
+  padding: 100px;
 }
 
 main .cointainer_txt_about h3 {
@@ -715,6 +712,16 @@ main .container_button .buttonClass {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-align: center;
+}
+
+.slideTeamWork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  gap: 20px;
+  width: 85%;
+  margin: auto;
 }
 
 .contactUs h2 {
