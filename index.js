@@ -32,3 +32,12 @@ $(".carouselSlick").slick({
   autoplay: true,
   autoplaySpeed: 6000,  
   });
+
+/*carousel teamWork */
+
+$(".slideTeamWork").slick({
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,  
+  });

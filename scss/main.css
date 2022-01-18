@@ -719,9 +719,12 @@ main .container_button .buttonClass {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  gap: 20px;
   width: 85%;
   margin: auto;
+}
+
+hr {
+  margin-top: 40px;
 }
 
 .contactUs h2 {
