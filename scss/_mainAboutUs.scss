@@ -66,6 +66,29 @@ main {
             text-align: center;
             }
     }
+    @media screen and (max-width: 800px){
+        .cointainer_txt_about{
+        display: grid;
+        grid-template-columns: 1fr;
+        overflow: hidden;
+        
+        }
+        .container_img_about{
+            width: 100%;
+            background-position-x: center;
+            overflow: hidden;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        
+        .container_img_about{
+            width: 100%;
+            background-position-x: center;
+            overflow: hidden;
+        }
+    }
+
 }
 
 .slideTeamWork{

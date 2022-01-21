@@ -14,7 +14,7 @@ $(".container_image").slick({
   slidesToShow: 4,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 4000,  
+  autoplaySpeed: 2000,  
   });
 
 /*banner SALLE*/
@@ -30,7 +30,7 @@ $(".carouselSlick").slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 6000,  
+  autoplaySpeed: 4000,  
   });
 
 /*carousel teamWork */

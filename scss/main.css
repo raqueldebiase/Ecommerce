@@ -723,6 +723,29 @@ main .container_button .buttonClass {
   text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+  main .cointainer_txt_about {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    overflow: hidden;
+  }
+  main .container_img_about {
+    width: 100%;
+    background-position-x: center;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main .container_img_about {
+    width: 100%;
+    background-position-x: center;
+    overflow: hidden;
+  }
+}
+
 .slideTeamWork {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -783,6 +806,16 @@ hr {
   margin-top: 5px;
   padding: 10px;
   resize: none;
+}
+
+@media screen and (max-width: 800px) {
+  .container_contacts {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    place-items: center;
+  }
 }
 
 .container_buttonSend {
