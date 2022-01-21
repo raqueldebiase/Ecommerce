@@ -38,10 +38,10 @@
     @media screen and (max-width: 1000px){
         display: grid;
         grid-template-columns: auto;
-        
+        place-items: center;
+
         img{
             width: 80%;
-            place-items: center;
         }
     }
 
