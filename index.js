@@ -40,4 +40,20 @@ $(".slideTeamWork").slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,  
-  });
+});
+
+
+/*
+$(".div_art").mouseenter(function(){
+  $(".div_art").addClass("opacity_articles").removeClass ("opacity_articles")
+});
+*/
+
+
+$(".div_art").hover (
+  function () {
+    $(this).addClass ("opacity_articles");
+  }, function () {
+    $(this).removeClass ("opacity_articles");
+  }
+);
