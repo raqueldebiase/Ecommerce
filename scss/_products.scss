@@ -21,6 +21,16 @@
     align-items: center;
     justify-content: center;
     padding: 40px;
+
+    .descricao {
+        position: relative;
+    }
+
+    span {
+        position: absolute;
+        right: 10px; 
+        display: none;
+    }
     
     div {
         margin: auto;

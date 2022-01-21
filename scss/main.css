@@ -849,6 +849,16 @@ hr {
   padding: 40px;
 }
 
+.item-products .descricao {
+  position: relative;
+}
+
+.item-products span {
+  position: absolute;
+  right: 10px;
+  display: none;
+}
+
 .item-products div {
   margin: auto;
   max-width: 200px;
@@ -957,5 +967,18 @@ main .heroShop .carouselSlick {
     gap: 40px;
     margin-left: 20px;
   }
+}
+
+.destaque {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin: auto;
+  padding: 40px;
+}
+
+.destaque span {
+  margin: auto;
 }
 /*# sourceMappingURL=main.css.map */

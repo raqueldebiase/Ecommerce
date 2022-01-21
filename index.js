@@ -17,14 +17,14 @@ $(".container_image").slick({
   autoplaySpeed: 4000,  
   });
 
-/*bannes SALEL*/
+/*banner SALLE*/
 
 $(".sales").mouseenter (function () {
   $("#log").append ("<div>SALES SALES SALES</div ")
 });
 
 
-/*caroussel shop */
+/*carousel shop */
 
 $(".carouselSlick").slick({
   slidesToShow: 3,
@@ -42,14 +42,6 @@ $(".slideTeamWork").slick({
   autoplaySpeed: 2000,  
 });
 
-
-/*
-$(".div_art").mouseenter(function(){
-  $(".div_art").addClass("opacity_articles").removeClass ("opacity_articles")
-});
-*/
-
-
 $(".div_art").hover (
   function () {
     $(this).addClass ("opacity_articles");
@@ -57,3 +49,31 @@ $(".div_art").hover (
     $(this).removeClass ("opacity_articles");
   }
 );
+
+$(".descricao").hover (
+  function (){
+    $(this).find("span").css ("display", "block");
+  }, function () {
+    $(this).find("span").css ("display", "none");
+  }
+);
+
+/*
+$(".material-icons-outlined").on ("click", function (){
+  if($(".material-icons-outlined").html("favorite")){
+  $(this).html("favorite_border")
+  } else {
+  $(this).html("favorite")
+  }
+});
+*/
+
+$(".material-icons-outlined").each(function(){
+  $(this).on('click', function(){
+    if($(this).html() == 'favorite'){
+      $(this).html('favorite_border');
+    } else {
+      $(this).html('favorite');
+    }
+  });
+});

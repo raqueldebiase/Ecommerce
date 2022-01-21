@@ -1,0 +1,11 @@
+.destaque{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding: 40px;
+    span{
+        margin: auto;
+        img{
+        }
+    }
+}
