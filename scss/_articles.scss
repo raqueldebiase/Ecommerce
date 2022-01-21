@@ -59,9 +59,16 @@
         @media screen and (max-width: 800px){
             display: grid;
             grid-template-columns: auto;
+            place-items: center;
             
-            img{
-                width: 80%;
+            .destaque{
+                span{
+                    max-width: 100%;
+                    img{
+                        place-items: center;
+                        margin: auto;
+                    }
+                }
             }
         }
 

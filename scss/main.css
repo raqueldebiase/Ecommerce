@@ -503,9 +503,14 @@ input {
     display: grid;
     -ms-grid-columns: auto;
         grid-template-columns: auto;
+    place-items: center;
   }
-  .container_articles .grid_articles img {
-    width: 80%;
+  .container_articles .grid_articles .destaque span {
+    max-width: 100%;
+  }
+  .container_articles .grid_articles .destaque span img {
+    place-items: center;
+    margin: auto;
   }
 }
 
@@ -975,10 +980,61 @@ main .heroShop .carouselSlick {
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   margin: auto;
-  padding: 40px;
+  padding: 50px;
 }
 
 .destaque span {
   margin: auto;
+  text-align: justify;
+  width: 80%;
+}
+
+.destaque span small {
+  font-size: 18px;
+  font-style: italic;
+  font-family: "nunito", sans-serif;
+}
+
+.destaque span p {
+  padding-bottom: 5px;
+}
+
+.destaque span article {
+  font-family: "nunito", sans-serif;
+  padding-top: 40px;
+}
+
+.destaque span h5 {
+  color: red;
+  font-family: "nunito", sans-serif;
+  padding: 10px 0px 10px 0px;
+}
+
+.destaque span h6 {
+  color: gray;
+  font-family: "nunito", sans-serif;
+}
+
+.destaque .container_buttonSend {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  .destaque {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+  .destaque img {
+    width: 80%;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .destaque img {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

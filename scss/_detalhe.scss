@@ -2,10 +2,52 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: auto;
-    padding: 40px;
+    padding: 50px;
     span{
         margin: auto;
+        text-align: justify;
+        width: 80%;
+        small{ 
+            font-size: 18px;
+            font-style: italic;
+            font-family: "nunito", sans-serif;
+            
+        }
+        p{
+            padding-bottom: 5px;
+        }
+        article { 
+            font-family: "nunito", sans-serif;
+            padding-top: 40px;
+        }
+
+        h5{
+            color: red;
+            font-family: "nunito", sans-serif;
+            padding: 10px 0px 10px 0px;
+        }
+        h6 {
+            color: gray;
+            font-family: "nunito", sans-serif;
+        }
+    }
+    .container_buttonSend {
+        margin-top: 40px;
+    }
+
+    @media screen and (max-width: 1000px){
+        display: grid;
+        grid-template-columns: auto;
+        
         img{
+            width: 80%;
+            place-items: center;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        img {
+            width: 100%;
         }
     }
 }
