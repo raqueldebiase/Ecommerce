@@ -1,16 +1,25 @@
 .sales {
     max-width: 100%;
     overflow: hidden;
-    margin: 150px 0 150px 0;
-    z-index: -1;
-    position: relative;
+    margin: 100px 0 50px 0;
     display: grid;
     place-items: center;
-    .txt_sales{
+    position: relative;
+    z-index: 1;
+    .absoluto {
         position: absolute;
-        color: #ffffff;
-        font-size: 86px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        z-index: 2;
+        opacity: 0;
+        transition: .10s;
+        .anime {
+            color: #ffffff;
+            font-size: 86px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    }
+
+    .animate {
+        opacity: 1;
     }
 
 

@@ -77,3 +77,56 @@ $(".material-icons-outlined").each(function(){
     }
   });
 });
+
+/*SCROLL*/
+
+/* JQUERY*/
+(function () {
+let $target = $(".absoluto"),
+    animationClass = "anime-start";
+
+function animeScroll() {
+  let documentTop = $(document).scrollTop();
+
+  $target.each(function() {
+      let itemTop = $(this).offset().top;
+      if(documentTop > itemTop - 400) {
+        $(this).addClass("animate");
+      } else {
+        $(this).removeClass("animate");
+      }
+  })
+}
+
+animeScroll();
+
+$(document).scroll(function() {
+  animeScroll();
+  console.log("teste");
+})
+
+}());
+
+
+/*JS
+
+const target = document.getElementsByClassName("absoluto");
+const animationClass = "animate";
+
+function animeScroll() {
+  const windowTop = window.pageYOffset + ((window.innerHeight *3)/4);
+  target.forEach(function(element){
+    if(windowTop > element.offsetTop) {
+      element.classList.add(animationClass);
+    }
+
+    console.log(element.offsetTop);  
+  })
+}
+
+window.addEventListener("scroll", function() {
+  animeScroll();
+})
+
+*/
+

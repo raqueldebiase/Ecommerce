@@ -277,25 +277,36 @@ input {
 }
 
 .container_carousel .sales {
-  margin-top: 120px;
+  margin-top: 60px;
 }
 
 .sales {
   max-width: 100%;
   overflow: hidden;
-  margin: 150px 0 150px 0;
-  z-index: -1;
-  position: relative;
+  margin: 100px 0 50px 0;
   display: -ms-grid;
   display: grid;
   place-items: center;
+  position: relative;
+  z-index: 1;
 }
 
-.sales .txt_sales {
+.sales .absoluto {
   position: absolute;
+  z-index: 2;
+  opacity: 0;
+  -webkit-transition: .10s;
+  transition: .10s;
+}
+
+.sales .absoluto .anime {
   color: #ffffff;
   font-size: 86px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sales .animate {
+  opacity: 1;
 }
 
 @media screen and (max-width: 400px) {
@@ -872,6 +883,27 @@ hr {
   border-radius: 2px;
 }
 
+@media screen and (max-width: 800px) {
+  .products .nav-products {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    overflow: hidden;
+    place-items: center;
+    grid-gap: 20px;
+  }
+  .products .nav-products input {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .products .nav-products input {
+    width: 300px;
+  }
+}
+
 .item-products {
   display: -ms-grid;
   display: grid;
@@ -918,6 +950,25 @@ hr {
 
 .item-products div p small .price {
   padding-top: 60px;
+}
+
+@media screen and (max-width: 800px) {
+  .item-products {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .item-products {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    place-items: center;
+  }
 }
 
 main .heroShop {
