@@ -33,8 +33,19 @@
         }
     }
     .grid_articles{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        // display: grid;
+        // grid-template-columns: 1fr 1fr 1fr;
+            overflow-x: scroll;
+            scroll-snap-type: x mandatory;
+            scroll-padding-left: 40px;
+            padding: 20px 0px 0px 40px;
+            display: grid;
+            grid-auto-flow: column;
+            gap: 10px;
+            margin-bottom: 120px;
+            .pop-icon {
+                scroll-snap-align: start;
+            }
         ul{
             padding: 40px;
             li{
@@ -72,11 +83,6 @@
             }
         }
 
-        @media screen and (max-width: 400px) {
-            img {
-                width: 100%;
-            }
-        }
 
         .div_art {
             display: flex;

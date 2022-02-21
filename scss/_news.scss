@@ -16,8 +16,12 @@
             font-size: 86px;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
+        p{
+            @media screen and (max-width: 400px) {
+                font-size: 14px;
+            }
+        }
     }
-
     .animate {
         opacity: 1;
     }

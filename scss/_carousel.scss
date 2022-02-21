@@ -8,6 +8,11 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        @media screen and (max-width: 400px) {
+            padding: 0;
+            margin-bottom: 40px;
+            margin-right: 20px;
+        }
         h3 {
             font-family: "Nunito", sans-serif;
             font-size: 18px;
@@ -25,21 +30,7 @@
             }
         }
     }
-    /*
-    .container_image{
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-        scroll-padding-left: 40px;
-        padding: 20px 0px 0px 80px;
-        display: grid;
-        width: 100%;
-        grid-auto-flow: column;
-        gap: 10px;
-        .pop-icon {
-            scroll-snap-align: start;
-        }
-    }
-    */
+
 
     .podcast {
         margin-top: 80px;
