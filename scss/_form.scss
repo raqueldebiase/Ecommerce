@@ -11,7 +11,7 @@
 .container_contacts{
     margin-top: 40px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     form{
         gap: 20px;
         label{
@@ -23,7 +23,8 @@
         input{
             width: 400px;
             height: 32px;
-            margin: 5px 20px 20px 0;
+            margin-bottom: 24px;
+            margin-top: 12px;
         }
     }
     .second{
