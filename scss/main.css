@@ -96,13 +96,19 @@ input {
   letter-spacing: 1px;
   color: gray;
 }
+.container_nav .menu ul a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+  font-size: 14px;
+}
 .container_nav .menu ul a.linked {
   list-style: none;
   text-decoration: none;
   color: rgb(94, 94, 94);
   font-size: 14px;
 }
-.container_nav .menu ul a:hover {
+.container_nav .menu ul a.linked:hover {
   color: #C4807E;
 }
 .container_nav .login_shop ul {
