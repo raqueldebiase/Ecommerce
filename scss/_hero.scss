@@ -6,12 +6,13 @@
     background-position-x: center;
     background-attachment: fixed;
     margin: 40px 0 40px 0;
-    @media screen and (max-width: 800px){
+    @media screen and (max-width: 800px) {
         max-width: 100%;
     }
     .container_hero {
         display: grid;
         place-items: center;
+        place-content: center;
         margin: auto;
         h1 {
             font-family: "Reenie Beanie";
@@ -21,7 +22,7 @@
                 font-size: 5em;
                 text-align: center;
             }
-            @media screen and(max-width: 400px) {
+            @media screen and (max-width: 400px) {
                 font-size: 5em;
                 text-align: center;
             }
