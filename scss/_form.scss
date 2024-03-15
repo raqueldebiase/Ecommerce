@@ -12,6 +12,7 @@
     margin-top: 40px;
     display: flex;
     justify-content: center;
+    gap: 48px;
     form{
         gap: 20px;
         label{
@@ -37,8 +38,8 @@
         }
         textarea{
             width: 400px;
-            height: 175px;
-            margin-top: 5px;
+            height: 190px;
+            margin-top: 12px;
             padding: 10px;
             resize: none;
         }
