@@ -266,10 +266,7 @@ input {
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
-  max-width: 100%;
-  overflow: hidden;
   height: 475px;
-  margin-top: 80px;
 }
 .container_pesquisa .search {
   margin-left: 40px;
@@ -433,10 +430,7 @@ input {
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
-  max-width: 100%;
-  overflow: hidden;
   height: 475px;
-  margin-top: 80px;
 }
 .container_pesquisa .search {
   margin-left: 40px;
