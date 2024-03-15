@@ -6,6 +6,9 @@
     background-position-x: center;
     background-attachment: fixed;
     margin: 40px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .container_hero {
         display: grid;
         place-items: center;
