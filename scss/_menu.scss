@@ -23,9 +23,9 @@
     }
 
     .menu ul{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
         li{
             display: flex;
             flex-wrap: wrap;
@@ -41,8 +41,10 @@
                 text-decoration: none;
                 color: rgb(94, 94, 94);
                 font-size: 14px;
+            }
+            a:hover {
+                color: #C4807E;
             }     
-        
     }
     .login_shop{
         ul {
