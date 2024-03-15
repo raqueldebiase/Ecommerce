@@ -102,6 +102,9 @@ input {
   color: rgb(94, 94, 94);
   font-size: 14px;
 }
+.container_nav .menu ul a:hover {
+  color: #C4807E;
+}
 .container_nav .login_shop ul {
   display: flex;
   flex-wrap: nowrap;
