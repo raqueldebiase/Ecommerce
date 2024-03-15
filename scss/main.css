@@ -96,7 +96,7 @@ input {
   letter-spacing: 1px;
   color: gray;
 }
-.container_nav .menu ul a {
+.container_nav .menu ul a.linked {
   list-style: none;
   text-decoration: none;
   color: rgb(94, 94, 94);
