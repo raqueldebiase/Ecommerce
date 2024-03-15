@@ -6,9 +6,6 @@
     background-position-x: center;
     background-attachment: fixed;
     margin: 40px 0 40px 0;
-    @media screen and (max-width: 800px) {
-        max-width: 100%;
-    }
     .container_hero {
         display: grid;
         place-items: center;
@@ -31,7 +28,7 @@
             font-family: "Nunito", sans-serif;
             color: white;
             letter-spacing: 0.3em;
-            @media screen and(max-width: 800px) {
+            @media screen and (max-width: 800px) {
                 text-align: center;
                 gap: 20px;
             }
