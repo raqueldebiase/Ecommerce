@@ -371,7 +371,7 @@ input {
   display: grid;
   grid-auto-flow: column;
   gap: 10px;
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 }
 .container_articles .grid_articles .pop-icon {
   scroll-snap-align: start;
