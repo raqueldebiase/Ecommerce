@@ -55,7 +55,30 @@ $('.carouselSlick').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 4000,
+  autoplaySpeed: 2000,
+});
+
+$(window).on('load resize', function () {
+  var windowWidth = $(window).width();
+  var slidesToShow = 3;
+
+  if (windowWidth <= 1720) {
+    slidesToShow = 4;
+  }
+
+  if (windowWidth <= 1320) {
+    slidesToShow = 4;
+  }
+
+  if (windowWidth <= 768) {
+    slidesToShow = 2;
+  }
+
+  if (windowWidth <= 520) {
+    slidesToShow = 1;
+  }
+
+  $('.carouselSlick').slick('slickSetOption', 'slidesToShow', slidesToShow);
 });
 
 /*carousel teamWork */
