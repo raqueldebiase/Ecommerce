@@ -9,6 +9,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media  screen and (max-width: 420px) {
+        background-size: auto;
+    }
     .container_hero {
         display: grid;
         place-items: center;

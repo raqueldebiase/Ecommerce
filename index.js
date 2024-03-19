@@ -36,10 +36,6 @@ $(window).on('load resize', function () {
     slidesToShow = 2;
   }
 
-  if (windowWidth <= 450) {
-    slidesToShow = 1;
-  }
-
   $('.container_image').slick('slickSetOption', 'slidesToShow', slidesToShow);
 });
 
@@ -72,10 +68,6 @@ $(window).on('load resize', function () {
 
   if (windowWidth <= 768) {
     slidesToShow = 2;
-  }
-
-  if (windowWidth <= 400) {
-    slidesToShow = 1;
   }
 
   $('.carouselSlick').slick('slickSetOption', 'slidesToShow', slidesToShow);
