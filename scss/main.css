@@ -825,11 +825,12 @@ main .heroShop {
     gap: 40px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .container_footer {
     display: grid;
     grid-template-columns: auto;
     gap: 40px;
+    padding: 20px;
   }
 }
 

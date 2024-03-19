@@ -44,9 +44,10 @@
         gap: 40px;
         
     }
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 420px) {
         display: grid;
         grid-template-columns: auto;
         gap: 40px;
+        padding: 20px;
     }
 }
