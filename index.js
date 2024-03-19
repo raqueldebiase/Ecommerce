@@ -10,7 +10,7 @@ $('.container_image').slick({
 */
 
 $('.container_image').slick({
-  slidesToShow: 4,
+  slidesToShow: 6,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
@@ -18,7 +18,7 @@ $('.container_image').slick({
 
 $(window).on('load resize', function () {
   var windowWidth = $(window).width();
-  var slidesToShow = 4;
+  var slidesToShow = 6;
 
   if (windowWidth <= 768) {
     slidesToShow = 3;
