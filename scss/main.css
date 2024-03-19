@@ -682,6 +682,7 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-content: center;
+  place-items: center;
 }
 .products .nav-products form input {
   line-height: 30px;
@@ -694,7 +695,6 @@ hr {
   .products .nav-products form {
     display: grid;
     grid-template-columns: 1fr;
-    overflow: hidden;
     place-items: center;
     grid-gap: 20px;
   }
@@ -804,7 +804,6 @@ main .heroShop {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    margin-left: 40px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -812,7 +811,6 @@ main .heroShop {
     display: grid;
     grid-template-columns: auto;
     gap: 40px;
-    margin-left: 20px;
   }
 }
 
