@@ -360,6 +360,11 @@ input {
   max-width: 100%;
   padding: 40px;
 }
+@media screen and (max-width: 420px) {
+  .container_articles {
+    padding: 20px;
+  }
+}
 .container_articles .container_text {
   width: 100%;
   display: flex;
@@ -367,7 +372,6 @@ input {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 60px;
-  margin-left: 20px;
 }
 @media screen and (max-width: 1280px) {
   .container_articles .container_text {
@@ -398,7 +402,6 @@ input {
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   scroll-padding-left: 40px;
-  padding: 20px 0px 0px 40px;
   display: grid;
   grid-auto-flow: column;
   gap: 10px;
