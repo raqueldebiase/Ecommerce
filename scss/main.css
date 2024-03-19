@@ -680,7 +680,7 @@ hr {
 
 .products .nav-products {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   margin: 40px;
