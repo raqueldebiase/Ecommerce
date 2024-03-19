@@ -16,15 +16,18 @@ $('.container_image').slick({
   autoplaySpeed: 2000,
 });
 
-$(window).resize(function () {
-  var windowWidth = $(window).width();
+var resized = false;
 
-  if (windowWidth <= 768) {
+$(window).resize(function () {
+  if ($(window).width() <= 768 && !resized) {
     $('.container_image').slick('slickSetOption', 'slidesToShow', 3);
-  } else if (windowWidth <= 480) {
+    resized = true;
+  } else if ($(window).width() > 768 && $(window).width() <= 480 && !resized) {
     $('.container_image').slick('slickSetOption', 'slidesToShow', 2);
-  } else {
+    resized = true;
+  } else if ($(window).width() > 768 && $(window).width() > 480 && resized) {
     $('.container_image').slick('slickSetOption', 'slidesToShow', 4); // Reverta para o padrão
+    resized = false;
   }
 });
 
