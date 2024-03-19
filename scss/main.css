@@ -208,6 +208,11 @@ input {
   text-decoration: underline;
   color: rgb(109, 108, 108);
 }
+@media screen and (max-width: 1280px) {
+  .container_carousel .container-image img {
+    margin-right: 20px;
+  }
+}
 .container_carousel .podcast {
   margin-top: 80px;
 }
