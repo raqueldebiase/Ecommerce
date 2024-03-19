@@ -823,6 +823,7 @@ main .heroShop {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+    padding: 40px;
   }
 }
 @media screen and (max-width: 420px) {
