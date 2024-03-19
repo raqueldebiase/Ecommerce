@@ -32,7 +32,11 @@ $(window).on('load resize', function () {
     slidesToShow = 3;
   }
 
-  if (windowWidth <= 480) {
+  if (windowWidth <= 620) {
+    slidesToShow = 2;
+  }
+
+  if (windowWidth <= 450) {
     slidesToShow = 1;
   }
 
