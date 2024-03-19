@@ -678,12 +678,12 @@ hr {
   margin-top: 40px;
 }
 
-.products .nav-products {
+.products .nav-products form {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-content: center;
 }
-.products .nav-products input {
+.products .nav-products form input {
   line-height: 30px;
   width: 300px;
   padding-left: 10px;
@@ -691,19 +691,19 @@ hr {
   border-radius: 2px;
 }
 @media screen and (max-width: 800px) {
-  .products .nav-products {
+  .products .nav-products form {
     display: grid;
     grid-template-columns: 1fr;
     overflow: hidden;
     place-items: center;
     grid-gap: 20px;
   }
-  .products .nav-products input {
+  .products .nav-products form input {
     width: 400px;
   }
 }
 @media screen and (max-width: 500px) {
-  .products .nav-products input {
+  .products .nav-products form input {
     width: 300px;
   }
 }
