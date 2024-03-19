@@ -679,11 +679,9 @@ hr {
 }
 
 .products .nav-products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-content: center;
 }
 .products .nav-products input {
   line-height: 30px;
