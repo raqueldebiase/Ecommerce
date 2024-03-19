@@ -3,7 +3,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         place-content: center;
-        
+        @media screen and (max-width: 1100px ) {
+            
+        }
         input{
             line-height: 30px;
             width: 300px;
