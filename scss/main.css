@@ -525,11 +525,7 @@ main .container_img_about {
   display: flex;
   background-image: url(/images/about/about.png);
   max-width: 100%;
-  padding: 40px;
   height: 300px;
-  overflow: hidden;
-  border-radius: 5px 5px 0px 0;
-  box-shadow: -10px 6px 10px rgba(0, 0, 0, 0.336);
 }
 main .cointainer_txt_about {
   display: flex;
@@ -584,16 +580,16 @@ main .container_button .buttonClass {
     display: grid;
     grid-template-columns: 1fr;
     overflow: hidden;
+    padding: 24px;
+    margin-top: 24px;
   }
   main .container_img_about {
-    width: 100%;
-    background-position-x: center;
+    background-position-x: right;
     overflow: hidden;
   }
 }
 @media screen and (max-width: 400px) {
   main .container_img_about {
-    width: 100%;
     background-position-x: center;
     overflow: hidden;
   }
