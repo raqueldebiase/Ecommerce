@@ -17,10 +17,14 @@ $('.container_image').slick({
 });
 
 $(window).resize(function () {
-  if ($(window).width() <= 1150) {
+  var windowWidth = $(window).width();
+
+  if (windowWidth <= 768) {
     $('.container_image').slick('slickSetOption', 'slidesToShow', 3);
-  } else if ($(window).width() <= 767) {
+  } else if (windowWidth <= 480) {
     $('.container_image').slick('slickSetOption', 'slidesToShow', 2);
+  } else {
+    $('.container_image').slick('slickSetOption', 'slidesToShow', 4); // Reverta para o padrão
   }
 });
 
