@@ -20,12 +20,20 @@ $(window).on('load resize', function () {
   var windowWidth = $(window).width();
   var slidesToShow = 6;
 
+  if (windowWidth <= 1720) {
+    slidesToShow = 5;
+  }
+
+  if (windowWidth <= 1320) {
+    slidesToShow = 4;
+  }
+
   if (windowWidth <= 768) {
     slidesToShow = 3;
   }
 
   if (windowWidth <= 480) {
-    slidesToShow = 2;
+    slidesToShow = 1;
   }
 
   $('.container_image').slick('slickSetOption', 'slidesToShow', slidesToShow);
