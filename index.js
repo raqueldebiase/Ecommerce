@@ -16,19 +16,19 @@ $('.container_image').slick({
   autoplaySpeed: 2000,
 });
 
-var resized = false;
+$(window).on('load resize', function () {
+  var windowWidth = $(window).width();
+  var slidesToShow = 4;
 
-$(window).resize(function () {
-  if ($(window).width() <= 768 && !resized) {
-    $('.container_image').slick('slickSetOption', 'slidesToShow', 3);
-    resized = true;
-  } else if ($(window).width() > 768 && $(window).width() <= 480 && !resized) {
-    $('.container_image').slick('slickSetOption', 'slidesToShow', 2);
-    resized = true;
-  } else if ($(window).width() > 768 && $(window).width() > 480 && resized) {
-    $('.container_image').slick('slickSetOption', 'slidesToShow', 4); // Reverta para o padrão
-    resized = false;
+  if (windowWidth <= 768) {
+    slidesToShow = 3;
   }
+
+  if (windowWidth <= 480) {
+    slidesToShow = 2;
+  }
+
+  $('.container_image').slick('slickSetOption', 'slidesToShow', slidesToShow);
 });
 
 /*banner SALLE*/
