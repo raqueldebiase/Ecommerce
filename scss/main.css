@@ -829,7 +829,7 @@ main .heroShop {
 @media screen and (max-width: 420px) {
   .container_footer {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
     padding: 20px;
   }
