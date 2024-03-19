@@ -11,7 +11,9 @@
         align-items: center;
         margin-bottom: 60px;
         margin-left: 20px;
-        
+        @media screen and (max-width: 1280px){
+            margin-bottom: 0px;
+        }
         h3 {
             font-family: "Nunito", sans-serif;
             font-size: 18px;

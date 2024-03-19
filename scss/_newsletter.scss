@@ -1,4 +1,4 @@
-.container_newsletter {
+.container_pesquisa {
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -29,6 +29,11 @@
         justify-content: center;
         font-size: 18px;
         width: 400px;
+        input {
+            @media screen and (max-width: 600px){
+                width: 100%;
+            }                           
+        }
     }
 
     .form_newsletter .email{

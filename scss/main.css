@@ -353,6 +353,11 @@ input {
   margin-bottom: 60px;
   margin-left: 20px;
 }
+@media screen and (max-width: 1280px) {
+  .container_articles .container_text {
+    margin-bottom: 0px;
+  }
+}
 .container_articles .container_text h3 {
   font-family: "Nunito", sans-serif;
   font-size: 18px;
