@@ -19,7 +19,7 @@ $('.container_image').slick({
 $(window).resize(function () {
   if ($(window).width() <= 1150) {
     $('.container_image').slick('slickSetOption', 'slidesToShow', 3);
-  } else if ($(window).width() <= 480) {
+  } else if ($(window).width() <= 670) {
     $('.container_image').slick('slickSetOption', 'slidesToShow', 2);
   } else {
     $('.container_image').slick('slickSetOption', 'slidesToShow', 4); // Reverta para o padrão
