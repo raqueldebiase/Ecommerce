@@ -60,7 +60,7 @@ $('.carouselSlick').slick({
 
 $(window).on('load resize', function () {
   var windowWidth = $(window).width();
-  var slidesToShow = 3;
+  var slidesToShow = 6;
 
   if (windowWidth <= 1720) {
     slidesToShow = 4;
