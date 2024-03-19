@@ -46,6 +46,9 @@
             .pop-icon {
                 scroll-snap-align: start;
             }
+            @media screen and (max-width: 1280px){
+                gap: 40px;
+            }
         ul{
             padding: 40px;
             li{

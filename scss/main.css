@@ -179,7 +179,6 @@ input {
   max-width: 100%;
   overflow: hidden;
   margin-top: 60px;
-  margin-left: 40px;
 }
 .container_carousel .container_p1_p2 {
   padding: 40px;
@@ -386,6 +385,11 @@ input {
 }
 .container_articles .grid_articles .pop-icon {
   scroll-snap-align: start;
+}
+@media screen and (max-width: 1280px) {
+  .container_articles .grid_articles {
+    gap: 40px;
+  }
 }
 .container_articles .grid_articles ul {
   padding: 40px;
