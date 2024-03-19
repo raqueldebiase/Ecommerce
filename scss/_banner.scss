@@ -59,8 +59,8 @@
                 border-style: none;
                 background: rgba(128, 128, 128, 0.288);
 
-                @media screen and (max-width: 400px) {
-                    width: 200px;
+                @media screen and (max-width: 600px) {
+                    width: 100%;
                 }
             }
         }

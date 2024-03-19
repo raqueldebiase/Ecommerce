@@ -333,9 +333,9 @@ input {
   border-style: none;
   background: rgba(128, 128, 128, 0.288);
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .container_pesquisa .search .form_newsletter input {
-    width: 200px;
+    width: 100%;
   }
 }
 
@@ -507,9 +507,9 @@ input {
   border-style: none;
   background: rgba(128, 128, 128, 0.288);
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .container_pesquisa .search .form_newsletter input {
-    width: 200px;
+    width: 100%;
   }
 }
 
