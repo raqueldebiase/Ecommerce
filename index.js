@@ -74,7 +74,7 @@ $(window).on('load resize', function () {
     slidesToShow = 2;
   }
 
-  if (windowWidth <= 520) {
+  if (windowWidth <= 400) {
     slidesToShow = 1;
   }
 
