@@ -87,10 +87,6 @@ $(window).on('load resize', function () {
     slidesToShow = 2;
   }
 
-  if (windowWidth <= 450) {
-    slidesToShow = 1;
-  }
-
   $('.slideTeamWork').slick('slickSetOption', 'slidesToShow', slidesToShow);
 });
 
