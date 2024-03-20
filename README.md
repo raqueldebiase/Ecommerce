@@ -1,13 +1,12 @@
-# Ecommerce
-E-commerce desenvolvida no âmbito do projeto de conclusão de curso de Front-end Development da escola Edit. Disruptive Digital Education. 
+Desenvolvimento de Website de E-commerce
+Este website de e-commerce foi desenvolvido como parte do projeto de conclusão do curso de Front-end Developer na escola de tecnologia Edit. Disruptive Digital Education (Lisboa, 2022).
 
-Para a execução do supracitado projeto, utilizei as seguintes tecnologias: HTML, CSS, SASS, jQuery, Javascript e Figma.
+Para a realização deste projeto, foram utilizadas diversas tecnologias e ferramentas, incluindo HTML, CSS, SASS, jQuery e Javascript, além da criação e integração de plugins utilizando jQuery.
 
-Durante o processo, aperfeiçoei meus conhecimentos na utilização do CSS Grid Layout e Flex Box, principalmente na questão do Responsive. Aprendi, também, sobre o uso do plugin Slick + jQuery, além de poder explorar a facilidade de trabalhar com o SASS.
+Durante o processo de desenvolvimento, aprimorei minhas habilidades em CSS Grid Layout e Flexbox, especialmente em relação à responsividade. Além disso, adquiri conhecimento sobre o uso do plugin Slick em conjunto com jQuery, e explorei as vantagens do pré-processador SASS.
 
 Link para projeto completo:
-https://quizzical-shirley-66ca81.netlify.app/
-
+https://projetofinaledit.netlify.app
 
 <img width="1447" alt="Captura de Tela 2022-04-24 às 09 06 47" src="https://user-images.githubusercontent.com/94414829/164967010-ead735f6-4e23-4f38-aedf-057712006221.png">
 <img width="1434" alt="Captura de Tela 2022-04-24 às 09 07 18" src="https://user-images.githubusercontent.com/94414829/164967012-7d2191be-8523-45f2-828c-a6fb942a46d9.png">
