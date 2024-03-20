@@ -1,4 +1,5 @@
-Desenvolvimento de Website de E-commerce
+Desenvolvimento de Website de E-commerce. <br>
+
 Este website de e-commerce foi desenvolvido como parte do projeto de conclusão do curso de Front-end Developer na escola de tecnologia Edit. Disruptive Digital Education (Lisboa, 2022).
 
 Para a realização deste projeto, foram utilizadas diversas tecnologias e ferramentas, incluindo HTML, CSS, SASS, jQuery e Javascript, além da criação e integração de plugins utilizando jQuery.
